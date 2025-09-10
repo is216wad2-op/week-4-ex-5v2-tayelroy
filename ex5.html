@@ -15,7 +15,13 @@
         }
 
         /* Add CSS code here */ 
-
+        #square {
+            width: 150px;
+            height: 150px;
+            background-color: goldenrod;
+            text-align: center;
+            padding-top: 60px;
+        }
     </style>
 </head>
 <body>
@@ -25,6 +31,16 @@
         </div>
         
         <script>
+            function mOver(obj){
+                obj.id = "square";
+                obj.style.paddingTop = "20px";
+
+            }
+
+            function mOut(obj){
+                obj.id = "circle";
+                obj.style.paddingTop = "60px";
+            }
            // add code here
         </script>
                 
